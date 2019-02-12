@@ -101,5 +101,17 @@ Also show cases the 'Simple Logging Framework - slf4j'.</description>
 		</dependency>
 	</dependencies>
 
+        <distributionManagement>
+          <repository>
+            <id>nexus</id>
+            <name>Nexus Releases</name>
+            <url>http://13.52.103.73:8081/repository/maven-releases</url>
+          </repository>
+          <snapshotRepository>
+            <id>nexus</id>
+            <name>Nexus Snapshot</name>
+            <url>http://13.52.103.73:8081/repository/maven-snapshots/</url>
+          </snapshotRepository>
+        </distributionManagement>
 
 </project>
