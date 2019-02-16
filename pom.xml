@@ -103,14 +103,14 @@ Also show cases the 'Simple Logging Framework - slf4j'.</description>
 
         <distributionManagement>
           <repository>
-            <id>nexus</id>
+            <id>nexus_maven_repo</id>
             <name>Nexus Releases</name>
-            <url>http://13.52.103.73:8081/repository/maven-releases</url>
+            <url>http://54.153.37.240:8081/repository/maven-releases</url>
           </repository>
           <snapshotRepository>
-            <id>nexus</id>
+            <id>nexus_maven_repo</id>
             <name>Nexus Snapshot</name>
-            <url>http://13.52.103.73:8081/repository/maven-snapshots/</url>
+            <url>http://54.153.37.240:8081/repository/maven-snapshots/</url>
           </snapshotRepository>
         </distributionManagement>
 
